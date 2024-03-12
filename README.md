@@ -1,30 +1,13 @@
-# React + TypeScript + Vite
+# Test project for internship in vk communities
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple SPA that fakes loading the list of communities and displays them for the user. Each community card displays name, avatar (optional), id, users count, friends count (optional). On friends count click the list of all friends present in this group is displayed.
+Above the list there is a block of 3 selects and 2 buttons for sumbit or reset filters. Data and filters are stored in mobX stores.
 
-Currently, two official plugins are available:
+I am not sure if i had to make simple server to fake requests and use fetch \ axios. Also all filters work with inital data because of it.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Styles are pretty much nonexistent. Almost missed the application message so didn't have the time to play with vk components.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+yarn install
+yarn dev
