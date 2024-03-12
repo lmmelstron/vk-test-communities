@@ -1,0 +1,13 @@
+.LoaderWrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
