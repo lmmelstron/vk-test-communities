@@ -1,0 +1,22 @@
+.Filters {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-bottom: 20px;
+}
+
+.Footer {
+  margin-left: auto;
+
+  button {
+    padding: 5px 15px;
+  }
+}
+
+.Reset {
+  background: lightcoral;
+}
+
+.Submit {
+  margin-left: 5px;
+}

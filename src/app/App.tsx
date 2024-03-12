@@ -1,7 +1,8 @@
+import { CommunitiesPage } from "@pages/CommunitiesPage";
 import "./App.css";
 
 function App() {
-  return <div>HEllo</div>;
+  return <CommunitiesPage />;
 }
 
 export default App;
