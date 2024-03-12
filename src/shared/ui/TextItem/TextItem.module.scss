@@ -1,0 +1,22 @@
+.TextItem {
+  display: flex;
+  padding: 0 5px;
+  width: 100%;
+  align-items: start;
+  justify-content: space-between;
+
+  &:hover {
+    background-color: lightgray;
+  }
+}
+
+.TextItemName {
+  width: fit-content;
+  text-wrap: nowrap;
+  margin-right: 5px;
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
