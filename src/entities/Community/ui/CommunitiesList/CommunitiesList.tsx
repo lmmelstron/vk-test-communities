@@ -24,7 +24,7 @@ export const CommunitiesList = observer(() => {
         <Loader />
       </div>
     );
-  if (error) return error;
+  if (error) return <h5 className={cls.Error}>{error}</h5>;
   if (!list?.length)
     return (
       <div>
